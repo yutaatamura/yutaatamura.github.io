@@ -144,13 +144,14 @@ span {
 
 .contact {
     float: left;
-    width: 590px;
+    width: 620px;
     border: 1px solid #dddddd;
     margin-left: 0;
     margin-top: 10px;
-    padding: 25px;
-    margin-right: 10px;
+    padding: 14px;
+    margin-right: 40px;
     background-color:#ffffff; 
+    min-height: 100%;
 }
 
 #aboutMeHeader {
