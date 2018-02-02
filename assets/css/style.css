@@ -1,0 +1,248 @@
+body {
+    width: 960px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 90px; /*margin bottom equal to the height of footer + 30px for extra spacing at bottom*/
+    background-image: url("../images/spiration-light.png");
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777777;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4aaaa5;
+}
+
+.headingFonts {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.otherFonts {
+    font-family: 'Arial', 'Helvetica  Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1, h2 {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ffffff;
+    height: 90px;
+    width: 100%;  
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ul {
+    position: absolute;
+    left: 790px;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    font-size: 30px;
+    color: #ffffff;
+    float: left;
+    width: 200px;
+    height: 90px;
+    text-align: center; 
+    font-weight: bold;
+    position:absolute;
+    top:0;
+    left:10%;  
+}
+
+.name {
+    position: relative;
+    top: 15px;
+    color: #ffffff;
+}
+
+li {
+    float: right;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 30px;   
+}
+
+.content {
+    width: 960px;
+    margin-top:120px;
+    min-height: 100%;
+    overflow: auto; /*Important to have overflow here in order for the container to grow with content; important for implementing the sticky footer */
+}
+
+.profilePic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    float: left;
+    width: 590px;
+    border: 1px solid #dddddd;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    background-color:#ffffff; 
+}
+
+.aboutMe {
+    float: left;
+    width: 590px;
+    border: 1px solid #dddddd;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    background-color:#ffffff; 
+    min-height: 100%;
+}
+
+.contact {
+    float: left;
+    width: 590px;
+    border: 1px solid #dddddd;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    background-color:#ffffff; 
+}
+
+#aboutMeHeader {
+    font-size: 28px;
+}
+
+#portfolioHeader {
+    font-size: 28px;
+}
+
+
+#contactHeader {
+    font-size: 28px;
+}
+
+
+.sideBar {
+    float: right;
+    width: 230px;
+    border:1px solid #dddddd;
+    margin-top: 10px;
+    padding: 20px;
+    background-color:#ffffff;
+    text-align: center;
+}
+
+#connectWithMeHeader {
+    font-size: 20px;
+}
+
+#githubIcon {
+    width: 50px;
+    height: 50px;
+}
+
+#githubIcon:hover {
+    box-shadow: 3px 3px 5px rgb(147, 147, 147);
+}
+
+#linkedinIcon {
+    width: 50px;
+    height: 50px;
+}
+
+#linkedinIcon:hover {
+    box-shadow: 3px 3px 5px rgb(147, 147, 147);
+}
+
+#overflowIcon {
+    width: 50px;
+    height: 50px;
+}
+
+#overflowIcon:hover {
+    box-shadow: 3px 3px 5px rgb(147, 147, 147);
+}
+
+footer {
+    background-color: #666666;
+    height: 60px;
+    width: 100%;  
+    border: 1px solid #cccccc;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.projects {
+    position: relative;
+    float: left;
+}
+
+.projectLabel {
+    position: absolute;
+    top: 100px; 
+    left: 0px;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    color: #ffffff;
+    background-color:#4aaaa5; 
+    line-height: 45px;   
+}
+
+input {
+    width: 450px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 450px;
+    height: 200px;
+    margin-top:10px;
+}
+
+#submitButton {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+#submitButton:hover {
+    color: rgb(192, 12, 21);
+    transition: color 0.3s;
+    outline: 3px solid rgb(147, 147, 147);
+    box-shadow: 5px 5px 5px rgb(147, 147, 147);
+}
+
+.copyright {
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 60px;
+}
